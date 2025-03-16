@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+header {
+  margin-bottom: $spacing-large;
+  text-align: center;
+
+  h1 {
+    font-size: 32px;
+    color: $primary-color;
+    font-weight: $font-weight-semibold;
+  }
+}

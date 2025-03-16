@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+article {
+  h2 {
+    font-size: $font-size-title;
+    font-weight: $font-weight-semibold;
+    margin-bottom: $spacing-medium;
+    color: $primary-color;
+  }
+
+  p {
+    font-size: $font-size-base;
+    line-height: 1.6;
+    color: $text-color;
+    margin-bottom:   2rem;
+  }
+
+  ul {
+    li {
+      margin: $spacing-small 0;
+    }
+  }
+}
